@@ -14,7 +14,7 @@ p {
     line-height: 28px;
     letter-spacing: 0em;
 }
-.hero3 h2,.hero4 h2 {
+.hero3 h2, .hero4 h2, .hero5 h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
@@ -57,6 +57,29 @@ p {
     padding: 1.54px, 0px, 1.46px, 0px;
 }
 
+/* hero5 */
+.hero5 h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.hero5 h4 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.profiles div{
+    height: 334px;
+    border-radius: 20px;
+    background: #F6F6F6;
+} .profiles p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
 
 
 @media (min-width: 768px) {
