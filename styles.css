@@ -14,7 +14,7 @@ p {
     line-height: 28px;
     letter-spacing: 0em;
 }
-.hero3 h2, .hero4 h2, .hero5 h2 {
+.hero3 h2, .hero4 h2, .hero5 h2, .hero6 h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
@@ -81,6 +81,27 @@ p {
     letter-spacing: 0em;
 }
 
+/* hero6 */
+.hero6 div div {
+    height: 350px;
+    border-radius: 20px;
+    background: #F6F6F6;
+
+}
+.hero6 a {
+    width: 167px;
+    height: 48.05px;
+    border-radius: 8px;
+    background: #8EADD5;
+    padding: 10px 24px ;
+    color: #FFFFFF; 
+}
+.hero6 a button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
 
 @media (min-width: 768px) {
     .hero1 h1 {
