@@ -5,10 +5,11 @@
 }
 body {
     font-family: 'Inter', sans-serif;
-}
-.hero1 {
     color: #272D38;
 }
+/* .hero1 {
+    color: #272D38;
+} */
 .hero1 h1 {
     font-size: 40px;
     font-weight: 700;
@@ -36,6 +37,42 @@ body {
     line-height: 28px;
     letter-spacing: 0em;
 }
+
+/* hero2 */
+.hero2 p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0em;
+
+}
+.hero2 div div {
+    height: 86px;
+    border-radius: 8px;
+    background: #F6F6F6;
+}
+.hero2 div div div {
+    height: 38px;
+}
+.hero2 div div div img {
+    height: 24px;
+    padding: 1.54px, 0px, 1.46px, 0px;
+}
+
+/* hero3 */
+.hero3 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+.hero3 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
 
 
 @media (min-width: 768px) {
