@@ -103,6 +103,30 @@ p {
     letter-spacing: 0em;
 }
 
+/* footer */
+footer {
+    background: #F6F6F6;
+}
+footer h5, footer a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-bottom: 8px;
+}
+footer li, footer p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 24px;
+}
+footer li:nth-last-child(-n+1), footer p:nth-last-child(-n+1){
+    padding-bottom: 72px;
+}
+
+
+
 @media (min-width: 768px) {
     .hero1 h1 {
         font-size: 64px;
