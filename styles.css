@@ -7,8 +7,30 @@ body {
     font-family: 'Inter', sans-serif;
     color: #272D38;
 }
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer-content, header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* .eclipse {
+    position: absolute;
+    width: 679px;
+    height: 679px;
+    top: -324px;
+    left: -221px;
+    background-image: linear-gradient(to  left, transparent, #8EADD53D);
+} */
 
 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.hero1 p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -71,7 +93,7 @@ p {
     letter-spacing: 0em;
 }
 .profiles div{
-    height: 334px;
+    height: auto;
     border-radius: 20px;
     background: #F6F6F6;
 } .profiles p {
@@ -82,7 +104,7 @@ p {
 }
 
 /* hero6 */
-.hero6 div div {
+.hero6 div  {
     height: 350px;
     border-radius: 20px;
     background: #F6F6F6;
@@ -125,9 +147,44 @@ footer li:nth-last-child(-n+1), footer p:nth-last-child(-n+1){
     padding-bottom: 72px;
 }
 
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    right: -300px; 
+    width: 500px;
+    height: 100%;
+    background-color: #fff;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.close-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: grid; 
+    place-content: end;
+    right: 20px;
+    width: 180px; 
+    font-size: 30px;
+}
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+    .hero3 h2, .hero4 h2, .hero5 h2, .hero6 h2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+    }
+    
+
     .hero1 h1 {
         font-size: 64px;
         font-weight: 700;
@@ -145,5 +202,28 @@ footer li:nth-last-child(-n+1), footer p:nth-last-child(-n+1){
         width: 450px;
         height: 450px;
 
+    }
+
+    .hero2 div div {
+        height: 86px;
+        Width: 915px;
+    }
+    .hero2 div div div img {
+        height: 48px;
+        padding: 1.54px, 0px, 1.46px, 0px;
+    }
+
+    .hero5 h4 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+    }
+
+    .hero6 div {
+        height: 450px;
+        border-radius: 20px;
+        background: #F6F6F6;
+    
     }
 }
